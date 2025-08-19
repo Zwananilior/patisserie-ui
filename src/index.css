@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f5;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9dce0;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Brush Script MT', cursive;
+  margin: 0;
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li:hover {
+  color: #d6336c;
+  cursor: pointer;
+}
+
+.order-button {
+  background-color: #d6336c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #ad1f52;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #ffe4ec;
+}
+
+.cta {
+  background: #c72d63;
+  color: #f0e7ea;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 28px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.collection-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* smaller min size */
+  gap: 15px; /* less space between */
+  justify-items: center; /* center cards in their grid cells */
+  
+}
+
+
+.product-image {
+  width: 100%;
+  height: 500px;           /* You can increase or decrease this as needed */
+  object-fit: cover;       /* This will crop the image to fill the box */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.hero {
+  background-image: url('/public/kelly-neil-eZX1D12IS9w-unsplash.jpg');
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay for readability */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-family: 'Brush Script MT', cursive;
+  color: #0e0d0d;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  color: #0e0d0d;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI'; /* Softer modern font */
+}
+.collection-card {
+  font-family: 'Brush Script MT', cursive;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.collection-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.collection-heading {
+
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #605b0c;
+}
+
+.collection-content {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.collection-button {
+  background-color: #ffb6c1; /* Light pink */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.collection-button,styles:hover {
+  background-color: #ff99aa;
+}
+.footer {
+  background-color: #fff0f5; /* soft pink background */
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer {
+  background-color: #fff0f5;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* So it still works on small screens */
+  text-align: center;
+}
+
+.footer-image {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.follow-text {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  color: #e4cd4a; /* Gold */
+}
+.footer-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.follow-container {
+  width: 150px;
+  height: 150px;
+  background-color: #ffe4ec;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+}
+
+.footer-bottom p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
