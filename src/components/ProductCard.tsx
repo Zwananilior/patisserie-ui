@@ -13,7 +13,7 @@ const ProductCard: React.FC<Props> = ({ title, image }) => (
       className="product-image"
     />
     <h3>{title}</h3>
-    <p>Sample description of this amazing product.</p>
+    <p>Amazing product the only way we know how to offer.</p>
     <button className="card-button">ORDER TODAY</button>
   </div>
 );
