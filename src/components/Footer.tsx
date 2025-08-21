@@ -13,10 +13,10 @@ const Footer: React.FC = () => (
         <p className="follow-text">Follow Us</p>
         <div className="social-icons">
           <a href="#" aria-label="Facebook">
-            <img src="/public/facebook.png" alt="Facebook" />
+            <img src="/facebook.png" alt="Facebook" />
           </a>
           <a href="#" aria-label="Twitter/X">
-            <img src="/public/x.png" alt="X/Twitter" />
+            <img src="/x.png" alt="X/Twitter" />
           </a>
         </div>
       </div>
