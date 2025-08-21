@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       }}
     >
       <img
-        src="/public/IMG-20250811-WA0033.jpg"
+        src="/IMG-20250811-WA0033.jpg"
         alt="Delicious cakes"
         style={{ width: "100%", maxHeight: "100%", objectFit: "cover" }}
       />
