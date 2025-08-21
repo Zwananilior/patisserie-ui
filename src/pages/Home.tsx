@@ -10,9 +10,9 @@ const Home: React.FC = () => {
       <Hero />
       <SectionTitle title="Delight in every Bite!" />
       <div className="product-grid">
-        <ProductCard title="Custom Cakes" image="/public/deva-williamson-rHz-DkDgA1k-unsplash.jpg" />
-        <ProductCard title="Macarons" image="/public/alexandra-gornago-_B7shfNUXEA-unsplash.jpg" />
-        <ProductCard title="Cupcake Collections" image="/public/diana-polekhina-tVRSj-KnfxE-unsplash.jpg" />
+       <ProductCard title="Custom Cakes" image="/deva-williamson-rHz-DkDgA1k-unsplash.jpg" />
+  <ProductCard title="Macarons" image="/alexandra-gornago-_B7shfNUXEA-unsplash.jpg" />
+  <ProductCard title="Cupcake Collections" image="/diana-polekhina-tVRSj-KnfxE-unsplash.jpg" />
       </div>
       <HolidaySection />
     </>
