@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const images = [
-  "/holiday.png",
+  "/public/holiday.png",
   "/pexels-ron-lach-10033198.jpg",
   "/pexels-cedric-fauntleroy-7220587.jpg",
 ];
