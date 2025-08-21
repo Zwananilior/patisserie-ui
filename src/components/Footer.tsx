@@ -4,7 +4,7 @@ const Footer: React.FC = () => (
   <footer className="footer offset-left">
     <div className="footer-row">
       <img
-        src="/public/cup.png"
+        src="/cup.png"
         alt="Cupcake"
         className="footer-image"
       />
